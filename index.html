@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Elite Training Institute</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Elite Training Institute</h1>
+    <nav>
+        <a href="#courses">Courses</a>
+        <a href="#trainers">Trainers</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#register">Register</a>
+    </nav>
+</header>
+
+<section id="courses">
+    <h2>Our Courses</h2>
+    <div class="card">Web Development</div>
+    <div class="card">Data Science</div>
+    <div class="card">AI & ML</div>
+</section>
+
+<section id="trainers">
+    <h2>Our Trainers</h2>
+    <p>Industry experts with real-world experience</p>
+</section>
+
+<section id="pricing">
+    <h2>Pricing</h2>
+    <div class="card">Web Dev - ₹5000</div>
+    <div class="card">Data Science - ₹7000</div>
+</section>
+
+<section id="register">
+    <h2>Register</h2>
+    <form id="regForm">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+
+        <select required>
+            <option>Select Course</option>
+            <option>Web Development</option>
+            <option>Data Science</option>
+        </select>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <p id="message"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
